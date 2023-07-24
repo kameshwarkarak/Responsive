@@ -1,0 +1,504 @@
+
+
+body{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    
+}
+nav{
+    height: 802px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border-radius:15px 0px 0px 15px;
+}
+
+span{
+    width: 50px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#uList1{
+    position: absolute;
+    top: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#uList1>li{
+    margin-bottom: 15px;
+}
+
+#uList2{
+    position: relative;
+    top: 100px;
+}
+#uList2>li{
+    margin-bottom: 15px;
+}
+#uList3{
+    margin-top: 300px;
+    position: relative;
+    top:135px;
+}
+#uList3>li{
+   margin-bottom: 15px;
+}
+
+li{
+   
+    list-style-type: none;
+    
+}
+img{
+    height: 22px;
+    width: 22px;
+}
+img:hover{
+   color: #ffffff;
+   background-color: rgb(215, 215, 229);
+   padding: 4px;
+   border-radius: 5px;
+
+}
+#user-info{
+    height: 100%;
+    width: 300px;
+    background-color: rgb(235, 234, 234);
+    display: flex;
+    flex-direction: column;
+
+}
+#user-info1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+   
+}
+#user-image{
+   
+    margin-left: 45px;
+    height: 70px;
+    width: 70px;
+    border-radius:60px;
+}
+#user-info1-desc{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#user-info1-desc>span{
+    
+    font-size: 30px;
+    font-weight: 500;
+
+}
+#user-info1-desc>p{
+    
+    margin-top: 5px;
+    margin-left: -10px;
+
+}
+
+#user-info2>span{
+font-size: 20px;
+font-weight: 550;   
+margin-top: 20px;
+margin-left: 50px;
+}
+#user-info2>h2{
+font-size: 30px;
+margin-left: 50px;
+margin-bottom: 0px;
+
+}
+#user-info2>h4{
+   margin-left: 50px;
+   margin-bottom:0px;
+   font-size: medium;
+   font-weight: 900;
+}
+#user-info2>p{
+    margin-top: 3px;
+    font-size: smaller;
+    font-weight: 500;
+    margin-left: 50px;
+    color: grey;
+    }
+#accout-p{
+    margin-top: 3px;
+}
+button{
+    border: 1px solid blue;
+    color: #ffffff;
+    font-weight: 200;
+    padding: 8px 20px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+button>img{
+    height: 10px;
+    width: 10px;
+
+}
+#user-info2>h5,h3{
+  
+    margin-left: 50px;
+}
+#user-info2>h5,h3{
+  
+    margin-left: 50px;
+}
+.para{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#user-info2>h5{
+  
+    margin-top: 3px;
+}
+
+hr{
+    width: 205px;
+    border:1px solid rgb(225, 224, 224);
+}
+#column2{
+    background-color: #ffffff;
+   
+    height: 802px;
+    width:700px ;
+}
+#column2>p{
+    color: blue;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 65px;
+    margin-bottom: 0px;
+}
+#column2>h4{
+    margin-top: 2px;
+    margin-left: 65px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#price-list{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -65px;
+}
+#price-list>span{
+    width: auto;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+   
+}
+#price-list>span>h3{
+    margin-left: 27px;
+   font-size: 22px;
+   margin-bottom: 0px;   
+}
+#price-list>span>p{
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 0px; 
+    margin-left: 27px;
+    color: rgb(156, 155, 155);  
+ }
+ #price-list>span>hr{
+    margin-top: 8px;
+    border: 1px solid blue; 
+    width: 150px; 
+    margin-left: 27px; 
+ }
+ #span2,#span3{
+    margin-left: -200px;
+    
+ }
+ #bargraph>h3{
+margin-left: 63px;
+margin-top: 50px;
+margin-bottom: 0px;
+font-size: 18px;
+ }
+
+ #nav-graph{
+    display: flex;
+    flex-direction: row;
+    margin-left: 63px;
+    margin-top: 5px;
+    
+ }
+ #nav-graph>span{
+    width: auto;
+    margin-right: 55px;
+ }
+ #nav-graph>span>p{
+    color: rgb(156, 155, 155);
+    font-size: 13px;
+
+
+ }
+ #nav-graph>span>p>b{
+    color:black;
+    font-size: 13px;
+
+ }
+ #nav-graph>span>p>span{
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+   
+    border-radius: 5px;
+
+ }
+ #bargraph>img{
+  width: 520px;
+  height: 200px;
+  margin-left: 63px;
+
+ }
+ #check{
+background-color: blue;
+margin-right: 7px;
+ }
+ #check2{
+    background-color: rgb(108, 108, 246);
+    margin-right: 7px;
+ }
+ #check3{
+    background-color: skyblue;
+    margin-right: 7px;
+ }
+ #spinner {
+  
+   margin-left: 63px;
+   margin-top:20px ;
+ }
+ #spinner>h3 {
+   margin-left: 0px;
+   font-size: 18px;
+   margin-bottom: 0px;
+  }
+  #spinner>p {
+    margin-left: 0px;
+    color: rgb(156, 155, 155);
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+   }
+ #spinner>span{
+    width: 200px;
+   
+ }
+ #spinner>span>p{
+   color: rgb(84, 84, 84);
+   font-size: 13px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: -1px;
+ }
+
+ #spinner>span>hr{
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+ #spinner>span>p>b{
+    color: rgb(69, 69, 69);
+  }
+  .progress-bar {
+   
+    margin-right: 25px; 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side,white 79%, transparent 80% 100%), conic-gradient(rgb(118, 242, 246) 75%, rgb(201, 250, 252) 0);
+    
+  }
+  
+  .progress-bar .progress {
+    width: 0%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #00FF00;
+  }
+  .progress-bar1 {
+    margin-right: 25px; 
+     
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side,white 79%, transparent 80% 100%), conic-gradient(rgb(118, 242, 246) 75%, rgb(201, 250, 252) 0);
+    
+  }
+  
+  .progress-bar1 .progress1 {
+    width: 0%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #00FF00;
+  }
+  .progress-bar2 {
+  
+    margin-right: 25px; 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side,white 79%, transparent 80% 100%), conic-gradient(rgb(118, 242, 246) 75%, rgb(201, 250, 252) 0);
+    
+  }
+  
+  .progress-bar2 .progress2 {
+    width: 0%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #00FF00;
+  }
+  #spinnerbar{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -60px;
+    left: 620px;
+  }
+  #spinnerbar>div>div>h2{
+   font-size: 17px;
+   top: 10px;
+   position:relative;
+   left: 19px;
+  }
+  #spinnerbar>div>p{
+    position: relative;
+    top: -20px;
+    left: 20px;
+    font-size: smaller;
+    color: rgb(84, 84, 84);
+  }
+  #spinnerbar>div>#top{
+  margin-left: 15px;
+  }
+  #spinnerbar>div>#me{
+    margin-left: 15px;
+  }
+ #aside{
+   
+    height: 802px;
+    width: 300px;
+    background-color: #fffefe;
+    border-radius: 0px 15px 15px 0px ;
+
+    }
+    #card{
+        margin-left: -10px;
+        height: auto;
+        width: 220px;
+        background-color: rgb(235, 234, 234);
+        border-radius: 5px;
+        position: absolute;
+        top: 60px;
+    }
+    #card>h3{
+        color: rgb(13, 13, 13);
+        margin-left:28px;
+        font-size: 17px;
+    }
+    #card>h5{
+        color: rgb(13, 13, 13);
+        margin-left:28px;
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    #card>input{
+        
+       margin-top: 15px;
+       margin-bottom: 8px;
+        cursor: pointer;
+        outline: none;
+        border-radius: 15px;
+        margin-left:28px;
+        height: 5px;
+        width: 120px;
+        background-color:rgb(255, 254, 254);
+    }
+  
+   #range2{
+    margin-bottom: 0px;
+   }
+    #card>p{
+        color: rgb(140, 64, 246);
+        margin-left:40px;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 63px;
+        margin-top: 23px;
+    }
+    #card>hr{
+        width: 170px;
+        margin-top: 20px;
+    }
+    #card>button{
+        margin-top: 25px;
+        padding-left: 62px;
+        padding-right: 62px;
+        margin-left: 27px;
+        border-radius: 10px;
+        margin-bottom: 0px;
+    }
+    
+    #aside2{
+        border-left: 2px solid blue;
+        height:100px;
+        margin-top: 470px;
+        margin-left: -10px;
+    }
+    #aside2>p{
+        margin-top: 20px;
+        margin-left: 25px;
+        color: rgb(124, 124, 124);
+        margin-bottom: 0px;
+    }
+    #aside2>h2{
+        margin-left: 25px; 
+        font-size: medium;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    #aside2>h6{
+        margin-left:25px; 
+        color: rgb(173, 173, 173);
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    #aside2>#asi-para{
+        color: rgb(140, 64, 246);
+        margin-left:40px;
+        font-size: 12px;
+        font-weight: 700;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+
+      
+     
+      
+      
